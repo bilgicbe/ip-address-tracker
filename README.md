@@ -19,7 +19,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/bilgicbe/ip-address-tracker/](https://github.com/bilgicbe/ip-address-tracker/)
-- Live Site URL: [http://bilgicbe.github.io/ip-address-tracker](http://bilgicbe.github.io/ip-address-tracker)
+- Live Site URL: [https://bilgicbe.github.io/ip-address-tracker](https://bilgicbe.github.io/ip-address-tracker/)
 
 ## My process
 
