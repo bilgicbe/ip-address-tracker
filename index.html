@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <link rel="stylesheet" href="index.css">
+  
+  <title>IP Address Tracker</title>
+  
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+  <div class="top">
+    <h1 class="header">
+      IP Address Tracker
+    </h1>
+    <div class="input-container"><input id='input' placeholder="Search for any IP address or domain"><div class="arrow-container"><img id="arrow" src="images/icon-arrow.svg"></div></div>
+    
+    <div class="display-container">
+      <div class="section border">
+        IP ADDRESS
+        <p id="ip-address" class="values"></p>
+      </div>
+      <div class="section border">
+        LOCATION
+        <p id="location" class="values"></p>
+      </div>
+      <div class="section border">
+        TIMEZONE
+        <p id="timezone" class="values"></p>
+      </div>
+      <div class="section">
+        ISP
+        <p id="isp" class="values"></p>
+      </div>
+    </div>
+    </div>
+  <div id="map"></div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/bilgicbe" target="_blank">Bekir Bilgiç</a>.
+  </div>
+  
+  <script src="index.js"></script>
+
+</body>
+</html>
